@@ -26,11 +26,10 @@ The model was trained and evaluated on large-scale, balanced datasets to ensure 
 
 To ensure generalizability, GraphShield was rigorously tested against two external datasets:
 *   **Dataset 3 [1]** - Brazilian Malware Dataset
-    ```
     Composition: 50,820 samples (29,704 malware + 21,116 goodware)
     Collection: 2012-2018
 *    **Dataset 4 [2]** - APIMDS API Call Dataset
-    ```
+    
     Composition: 23,380 samples (23,080 malware + 300 goodware)
 
 ## 🔐 Data Access
