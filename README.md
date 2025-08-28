@@ -1,4 +1,4 @@
-# GraphShield: Dynamic Malware Detection via Temporal API Graph Analysis
+# GraphShield: Advanced Dynamic Graph-Based Malware Detection Using Graph Neural Networks
 
 **GraphShield** is a graph-based malware detection framework that analyzes dynamic API call sequences with high precision. It converts API calls into temporal graphs, applies semantic vectorization, and uses attention mechanisms to capture both short-term actions and long-term behavioral patterns, representing a significant improvement over prior approaches.
 
@@ -25,8 +25,8 @@ The model was trained and evaluated on large-scale, balanced datasets to ensure 
 ### External Validation
 
 To ensure generalizability, GraphShield was rigorously tested against two external datasets:
-*   **Dataset 3** \cite{ceschin2018need}
-*   **Dataset 4** \cite{ki2015novel}
+*   **Dataset 3** [1]
+*   **Dataset 4** [2]
 
 ## 🔐 Data Access
 
@@ -36,3 +36,8 @@ Please fill out our [Data Access Request Form](https://forms.gle/vcKXSEBsTjWZa23
 
 ## 🚀 Getting Started
 
+## 📚 References
+
+[1] F. Ceschin, F. Pinage, M. Castilho, D. Menotti, L. S. Oliveira, and A. Gregio, "The need for speed: An analysis of brazilian malware classifiers," *IEEE Security & Privacy*, vol. 16, no. 6, pp. 31–41, 2018.
+
+[2] Y. Ki, E. Kim, and H. K. Kim, "A novel approach to detect malware based on API call sequence analysis," *International Journal of Distributed Sensor Networks*, vol. 11, no. 6, p. 659101, 2015.
