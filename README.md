@@ -2,6 +2,8 @@
 
 **GraphShield** is a graph-based malware detection framework that analyzes dynamic API call sequences with high precision. It converts API calls into temporal graphs, applies semantic vectorization, and uses attention mechanisms to capture both short-term actions and long-term behavioral patterns, representing a significant improvement over prior approaches.
 
+---
+
 ## 🧠 Methodology
 
 Our framework leverages advanced Graph Neural Network (GNN) architectures to model the structural and temporal features of execution traces. We evaluate a comprehensive suite of models, including:
